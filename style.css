@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Twitch';
+    src: url("Fonts/DIMITRI_.TTF"), format('opentype');
+    font-weight: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -13,7 +19,8 @@
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
 
     --Fonte-Escolida: 'Permanent Marker';
-    --Fonto-padrao:'Roboto'
+    --Fonto-padrao:'Roboto';
+    --Font-twitch:'twitch';
 }
 *{
     margin: 0px;
@@ -29,7 +36,7 @@ strong{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--Roxo), var(--Azul));
+    background-color: var(--Roxo);
     color: #EBDA15;
     text-align: center;
     border-bottom: 0px;
@@ -39,9 +46,10 @@ header{
 
 header h1{
     text-shadow: 0px 0px 10px black;
-    font-family: var(--Fonte-Escolida);
-    font-size: 3em;
+    font-family: var(--Font-twitch);
+    font-size: 5em;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 header h2{
@@ -70,6 +78,8 @@ main > p{
     font-family: var(--fonte-padrao);
     text-align: justify;
     padding: 20px;
+    line-height: 1.5em;
+    text-indent: 30px;
 }
 
 aside{
