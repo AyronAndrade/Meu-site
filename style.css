@@ -69,6 +69,8 @@ main > p{
     font-family: var(--Fonto-padrao);
     text-align: justify;
     padding: 20px;
+    text-indent: 2em;
+    line-height: 2em;
 }
 
 ul{
