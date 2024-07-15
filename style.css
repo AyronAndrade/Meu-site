@@ -19,8 +19,14 @@
     padding: 0px;
 }
 
+
 body{
-    background-image: url(Imagens/FundoTest3.jpeg);
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/14/20/05/duck-meet-4127713_1280.jpg);
+    background-size: 3000px;
+    background-repeat: repeat;
+    background-position: center top;
+
+    
 }
 
 
@@ -30,7 +36,10 @@ strong{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--Roxo), var(--Azul));
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/22/23/07/bora-bora-685303_1280.jpg);
+    background-position: center bottom;
+    background-repeat: repeat;
+    background-size: 2200px;
     color: #EBDA15;
     text-align: center;
     border-bottom: 0px;
@@ -43,6 +52,7 @@ header h1{
     text-shadow: 0px 0px 10px black;
     font-family: var(--Fonte-Escolhida);
     font-size: 3em;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -67,8 +77,8 @@ main{
     max-width: 1000px;
     margin: auto;
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+
 }
 
 main h1{
