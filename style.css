@@ -21,6 +21,7 @@
 
 
 body{
+    height: 100vh;
     background-image: url(https://cdn.pixabay.com/photo/2019/04/14/20/05/duck-meet-4127713_1280.jpg);
     background-color: #EBDA15;
     background-size: cover;
