@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --Amarelo: #EBDA15;
+    --Cyan: #03FFFF;
+    --Azul: #0C15FE;
+    --Roxo: #3D2CEB;
+}
+
+body {
+    background-color: #e2dda8;
+}
+
+header {
+    background-color: var(--Azul);
+    color: var(--Amarelo);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+} main {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #bcb8ec;
+    text-indent: 1em;
+}
+
+section#reclamacoes1 {
+    color: var(--Amarelo);
+    padding: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background: var(--Cyan) url(Imagens/Codigo.jpg) center top no-repeat fixed;
+    background-size: cover;
+}
+
+section#reclamacoes1 > p {
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #3c2cebf3;
+    font-size: 2em;
+    text-align: center;
+}
+
+section#aprendisagem > h2 {
+    font-variant: small-caps;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #EBDA15;
+    text-align: center;
+    background-color: var(--Azul);
+}
+
+section#aprendisagem > p {
+
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+section#aprendisagem > ul{ 
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3D2CEB;
+    color: #EBDA15;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
