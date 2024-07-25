@@ -45,7 +45,6 @@ header > h1 {
 }
 
 section#reclamacoes1 {
-    color: var(--Amarelo);
     padding: 50px;
     border-radius: 10px 10px 0px 0px;
     background: var(--Cyan) url(Imagens/Codigo.jpg) center top no-repeat fixed;
@@ -58,9 +57,10 @@ section#reclamacoes1 > p {
     max-width: 550px;
     margin: auto;
     background-color: rgba(17, 17, 17, 0.952);
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     text-align: center;
     font-family: var(--Font-Padrao);
+    color: white;
 }
 
 section#aprendisagem {
