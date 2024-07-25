@@ -60,7 +60,7 @@ section#reclamacoes1 > p {
     font-size: 2.3vh;
     text-align: center;
     font-family: var(--Font-Padrao);
-    color: white;
+    color: var(--Amarelo);
 }
 
 section#aprendisagem {
