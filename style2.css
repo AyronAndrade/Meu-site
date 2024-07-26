@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,10 +14,14 @@
     --Cyan: #03FFFF;
     --Azul: #0C15FE;
     --Roxo: #3D2CEB;
+    
+    --Font-Padrao: 'Roboto';
+    --Font-Escolhida: 'Permanent Marker';
 }
 
 body {
-    background-color: #e2dda8;
+    height: 100vh;
+    background-color: black;
 }
 
 header {
@@ -23,12 +31,16 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+header > h1 {
+    font-family: var(--Font-Escolhida);
+}
 
-} main {
+ main {
     max-width: 900px;
     margin: auto;
     border-radius: 10px;
-    background-color: #bcb8ec;
+    background-color: black;
     text-indent: 1em;
 }
 
@@ -42,11 +54,17 @@ section#reclamacoes1 {
 
 section#reclamacoes1 > p {
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 550px;
     margin: auto;
-    background-color: #3c2cebf3;
-    font-size: 1.5em;
+    background-color: rgba(17, 17, 17, 0.952);
+    font-size: 1em;
     text-align: center;
+    font-family: var(--Font-Padrao);
+}
+
+section#aprendisagem {
+    background-color: white;
+    padding-bottom: 20px;
 }
 
 section#aprendisagem > h2 {
@@ -56,17 +74,37 @@ section#aprendisagem > h2 {
     color: #EBDA15;
     text-align: center;
     background-color: var(--Azul);
+    font-family: var(--Font-Escolhida);
 }
 
 section#aprendisagem > p {
-
-    line-height: 1.5em;
+    font-family: var(--Font-Padrao);
+    line-height: 1.3em;
+    font-size: em;
+    text-align: center;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 section#aprendisagem > ul{ 
     list-style-position: inside;
+    border: solid black;
+    border-radius: 10px;
     margin-bottom: 20px;
+    background-image: linear-gradient(to right, var(--Cyan), transparent);
+    font-family: var(--Font-Escolhida);
+    line-height: 2em;
+
+}
+
+li > a {
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    color: var(--Amarelo);
 }
 
 footer {
