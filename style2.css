@@ -50,6 +50,7 @@ section#reclamacoes1 {
     border-radius: 10px 10px 0px 0px;
     background: var(--Cyan) url(Imagens/Codigo.jpg) center top no-repeat fixed;
     background-size: cover;
+    line-height: 1.5em;
 }
 
 section#reclamacoes1 > p {
