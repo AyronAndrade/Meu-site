@@ -94,6 +94,7 @@ section#aprendisagem > ul{
     background-image: linear-gradient(to right, var(--Cyan), transparent);
     font-family: var(--Font-Escolhida);
     line-height: 2em;
+    text-align: center;
 
 }
 
